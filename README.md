@@ -1,4 +1,4 @@
-## What is does
+## What it does
 This script allows me to run bpython instead of the default
 Python interpreter in any folder. It doesn't install bpython locally and
 doesn't fully shadow the default Python interpreter, so if I don't wanna
