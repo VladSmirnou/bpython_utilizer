@@ -17,7 +17,7 @@ about how this script works.
 ![screenshot1](workflow.png)
 
 ## Notes
-1) I use this script by myself and I like to name my 'venv' folders as '.venv', so this
+1) I use this script myself and I like to name my 'venv' folders as '.venv', so this
 script won't work if you name your 'venv' folders differently
 2) I'm using WSL Ubuntu 22.04.3 LTS
 3) My current Python version is 3.10.12
