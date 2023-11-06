@@ -33,7 +33,7 @@ function init_default_pyt_intr() {
     python3
 }
 
-if [ "$VIRTUAL_ENV" == "" ]; then
+if [ -z "$VIRTUAL_ENV" ]; then
     if ! [ "$(ls -A $PWD | grep '^.venv$')" ]; then
         echo "You don't have the '.venv' folder in the [ $PWD ] directory,"
         echo -n "wanna create it and install && run bpython? [y/n]: "
