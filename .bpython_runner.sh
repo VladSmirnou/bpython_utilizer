@@ -43,7 +43,7 @@ if [ -z "$VIRTUAL_ENV" ]; then
             echo "Creating the '.venv' in [ $PWD ]..."
             python3 -m venv $PWD/.venv
             echo "Done!"
-            actv_venv && instl_run_bpython
+            actv_venv ; instl_run_bpython
         elif [ $res -eq 1 ]; then
             init_default_pyt_intr
         fi
@@ -59,7 +59,7 @@ if [ -z "$VIRTUAL_ENV" ]; then
             get_descision
             res=$?
             if [ $res -eq 0 ]; then
-                actv_venv && instl_run_bpython
+                actv_venv ; instl_run_bpython
             elif [ $res -eq 1 ]; then
                 init_default_pyt_intr
             fi
